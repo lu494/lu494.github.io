@@ -26,8 +26,16 @@
 
         const toggleBtn = document.getElementById('toc-toggle');
         const tocContainer = document.getElementById('toc-container');
+        const content = document.querySelector('.page-content');
         toggleBtn.onclick = () => {
-          tocContainer.classList.toggle('hidden');
+          tocContainer.classList.toggle('visible');
+          if (tocContainer.classList.contains('visible')) {
+            tocContainer.style.width = '100vw';
+            content.style.marginLeft = '100vw';
+          } else {
+            tocContainer.style.width = '0';
+            content.style.marginLeft = '0';
+          }
         };
       });
     </script>
@@ -38,14 +46,14 @@
         top: 0;
         left: 0;
         bottom: 0;
-        width: 280px;
-        resize: horizontal;
+        width: 0;
         overflow: hidden;
-        background-color: rgba(255, 255, 200, 0.6); /* 更加透明 */
+        background-color: rgba(173, 216, 230, 0.6); /* 浅蓝半透明 */
         z-index: 100;
         display: flex;
         flex-direction: column;
         border-right: 1px solid #ddd;
+        transition: width 0.3s ease;
       }
 
       .js-toc {
@@ -53,10 +61,10 @@
         overflow-y: auto;
         overflow-x: hidden;
         padding: 1rem;
-        font-size: 16px; /* 字号加大 */
+        font-size: 16px;
         line-height: 1.6;
         scrollbar-width: none;
-        font-family: "Microsoft YaHei", sans-serif; /* 黑体 */
+        font-family: "SimHei", "KaiTi", sans-serif; /* 黑体优先，其次正楷 */
       }
 
       .js-toc::-webkit-scrollbar {
@@ -79,11 +87,11 @@
       }
 
       .page-content {
-        margin-left: 280px;
+        margin-left: 0;
         transition: margin-left 0.3s ease;
       }
 
-      .js-toc-container.hidden {
+      .js-toc-container:not(.visible) {
         display: none;
       }
 
