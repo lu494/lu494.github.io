@@ -1,16 +1,15 @@
-<!-- ✅ 完整可直接使用的 Jekyll 博客模板，支持左侧目录吸附顶部 + 暗色代码高亮 -->
 <!DOCTYPE html>
 <html lang="zh">
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
 
-    <!-- ✅ 样式：博客整体布局 + 代码高亮 + 目录样式 -->
+    <!-- 样式 -->
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/syntax.css" | relative_url }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.css">
 
-    <!-- ✅ 脚本：目录生成器 -->
+    <!-- 脚本 -->
     <script src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js"></script>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -18,64 +17,98 @@
           tocSelector: '.js-toc',
           contentSelector: '.js-toc-content',
           headingSelector: 'h1, h2, h3, h4, h5, h6',
-          positionFixedSelector: '.js-toc',
+          positionFixedSelector: '.js-toc-container',
           positionFixedClass: 'is-fixed',
           scrollSmooth: true,
           headingsOffset: 80,
           collapseDepth: 6
         });
+
+        const toggleBtn = document.getElementById('toc-toggle');
+        const tocContainer = document.getElementById('toc-container');
+        toggleBtn.onclick = () => {
+          tocContainer.classList.toggle('hidden');
+        };
       });
     </script>
 
     <style>
-      /* ✅ 目录样式固定在左侧全高，颜色与标题一致 */
-      .js-toc {
+      .js-toc-container {
         position: fixed;
         top: 0;
         left: 0;
-        width: 220px;
-        height: 100vh;
-        padding: 1rem;
-        background-color: #f6f8fa; /* GitHub header 淡灰蓝 */
-        font-size: 14px;
-        line-height: 1.6;
-        overflow-y: auto;
-        border-right: 1px solid #ddd;
+        bottom: 0;
+        width: 280px;
+        resize: horizontal;
+        overflow: hidden;
+        background-color: rgba(255, 255, 200, 0.6);
         z-index: 100;
+        display: flex;
+        flex-direction: column;
+        border-right: 1px solid #ddd;
       }
 
-      .js-toc li {
-        list-style: none;
-        margin: 4px 0;
+      .js-toc {
+        flex: 1;
+        overflow-y: auto;
+        overflow-x: hidden;
+        padding: 1rem;
+        font-size: 14px;
+        line-height: 1.6;
+        scrollbar-width: none; /* Firefox */
+      }
+
+      .js-toc::-webkit-scrollbar {
+        display: none; /* Chrome/Safari */
       }
 
       .toc-link {
-        text-decoration: none;
         color: #0366d6;
+        text-decoration: none;
         display: block;
       }
+
       .is-active-link {
         font-weight: bold;
         color: #d73a49;
       }
 
       .page-content {
-        margin-left: 240px; /* 留出目录空间 */
+        margin-left: 280px;
+        transition: margin-left 0.3s ease;
+      }
+
+      .js-toc-container.hidden {
+        display: none;
       }
 
       @media (max-width: 768px) {
-        .js-toc {
+        .js-toc-container {
           display: none;
         }
         .page-content {
           margin-left: 0;
         }
       }
+
+      #toc-toggle {
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        background-color: #0366d6;
+        color: white;
+        border: none;
+        padding: 6px 12px;
+        cursor: pointer;
+        z-index: 200;
+        border-radius: 4px;
+      }
     </style>
   </head>
 
   <body>
-    <!-- ✅ 顶部导航栏 -->
+    <button id="toc-toggle">目录</button>
+
     <header class="site-header">
       <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
@@ -85,18 +118,18 @@
       </div>
     </header>
 
-    <!-- ✅ 主体区域：左目录 + 右正文 -->
     <main class="page-content">
-      <!-- 左侧目录容器（脱离 wrapper） -->
-      <nav class="js-toc"></nav>
+      <!-- 左侧可调宽目录区域 -->
+      <div id="toc-container" class="js-toc-container">
+        <nav class="js-toc"></nav>
+      </div>
 
-      <!-- 右侧正文内容 -->
+      <!-- 正文区域 -->
       <div class="wrapper js-toc-content">
         {{ content }}
       </div>
     </main>
 
-    <!-- ✅ 页脚 -->
     <footer class="site-footer">
       <div class="wrapper">
         <p><strong>免责声明：</strong>本博客仅供技术研究与学习交流，严禁用于非法用途，违者后果自负！</p>
