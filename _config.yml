@@ -2,6 +2,9 @@ title: 渗透攻防十万小时专家计划
 author: 御剑不孤独
 description: lu494
 theme: minima
+markdown: kramdown
+highlighter: rouge
+
 
 # 让 GitHub 启用 Jekyll 渲染
 plugins:
