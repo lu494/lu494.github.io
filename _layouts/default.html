@@ -73,18 +73,16 @@
       </div>
     </header>
 
-    <!-- ✅ 主体区域：左目录 + 右正文 -->
-    <main class="page-content">
-      <div class="wrapper" style="display: flex;">
-        <!-- 左侧目录容器 -->
-        <nav class="js-toc"></nav>
+  <main class="page-content" style="display: flex;">
+  <!-- ✅ 目录贴边栏：脱离 wrapper，固定左侧 -->
+  <nav class="js-toc"></nav>
 
-        <!-- 右侧正文内容 -->
-        <div class="js-toc-content" style="flex: 1;">
-          {{ content }}
-        </div>
-      </div>
-    </main>
+  <!-- ✅ 内容区域：继续使用 wrapper 居中正文 -->
+  <div class="wrapper js-toc-content" style="flex: 1;">
+    {{ content }}
+  </div>
+</main>
+
 
     <!-- ✅ 页脚 -->
     <footer class="site-footer">
