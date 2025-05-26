@@ -1,4 +1,3 @@
-# lu494.github.io
 # 渗透攻防十万小时专家计划
 
 大家好！我是御剑不孤独。
@@ -22,7 +21,7 @@
 
 ## 目录
 
-[lu494.github.io](https://lu494.github.io/)
+[目录](https://lu494.github.io/directory.md)
 
 
 *本博客仅供技术研究与学习交流，严禁用于非法用途，违者后果自负！*
