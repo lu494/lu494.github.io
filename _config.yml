@@ -1,0 +1,8 @@
+title: 我的信息安全博客
+author: 御剑不孤独
+description: 渗透攻防十万小时专家计划
+theme: minima
+
+# 让 GitHub 启用 Jekyll 渲染
+plugins:
+  - jekyll-feed
