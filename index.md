@@ -1,5 +1,6 @@
 ---
-layout: home
+
+layout: default
 title: 渗透攻防十万小时专家计划
 ---
 
