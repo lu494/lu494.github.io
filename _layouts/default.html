@@ -41,7 +41,7 @@
         width: 280px;
         resize: horizontal;
         overflow: hidden;
-        background-color: rgba(255, 255, 200, 0.85); /* 更强透明黄 */
+        background-color: rgba(255, 255, 200, 0.6); /* 更加透明 */
         z-index: 100;
         display: flex;
         flex-direction: column;
@@ -53,9 +53,10 @@
         overflow-y: auto;
         overflow-x: hidden;
         padding: 1rem;
-        font-size: 14px;
+        font-size: 16px; /* 字号加大 */
         line-height: 1.6;
         scrollbar-width: none;
+        font-family: "Microsoft YaHei", sans-serif; /* 黑体 */
       }
 
       .js-toc::-webkit-scrollbar {
@@ -63,12 +64,13 @@
       }
 
       .toc-link {
-        color: #0366d6;
-        text-decoration: none;
+        color: #333;
+        text-decoration: none !important;
       }
 
       .toc-link:hover {
-        color: #023b88;
+        color: #000;
+        text-decoration: none;
       }
 
       .is-active-link {
