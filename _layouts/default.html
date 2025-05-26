@@ -10,7 +10,6 @@
       <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
         <nav class="site-nav">
-          <a class="page-link" href="{{ "/" | relative_url }}">首页</a>
           <a class="page-link" href="{{ "/directory" | relative_url }}">目录</a>
         </nav>
       </div>
@@ -24,8 +23,8 @@
 
     <footer class="site-footer">
       <div class="wrapper">
-        {{ site.description }}<br />
-        {{ site.author }} © {{ site.time | date: '%Y' }}
+        <p>本博客仅供技术研究与学习交流，严禁用于非法用途，违者后果自负！</p>
+        <p>{{ site.author }} © {{ site.time | date: "%Y" }}</p>
       </div>
     </footer>
   </body>
