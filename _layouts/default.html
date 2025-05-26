@@ -30,15 +30,21 @@
     <style>
       /* ✅ 内联目录样式优化（你也可以放到 main.css） */
       .js-toc {
-        width: 220px;
-        font-size: 14px;
-        line-height: 1.6;
-        position: sticky;
+        position: fixed;
         top: 100px;
+        left: 0;
+        width: 220px;
+        padding-left: 1rem;
+        padding-right: 1rem;
         max-height: 80vh;
         overflow-y: auto;
-        padding-right: 1rem;
+        font-size: 14px;
+        line-height: 1.6;
+        z-index: 10;
+        background: #fff;
       }
+
+
 
       .js-toc li {
         list-style: none;
