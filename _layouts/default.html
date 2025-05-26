@@ -41,7 +41,7 @@
         width: 280px;
         resize: horizontal;
         overflow: hidden;
-        background-color: rgba(255, 255, 200, 0.6);
+        background-color: rgba(255, 255, 200, 0.85); /* 更强透明黄 */
         z-index: 100;
         display: flex;
         flex-direction: column;
@@ -55,17 +55,20 @@
         padding: 1rem;
         font-size: 14px;
         line-height: 1.6;
-        scrollbar-width: none; /* Firefox */
+        scrollbar-width: none;
       }
 
       .js-toc::-webkit-scrollbar {
-        display: none; /* Chrome/Safari */
+        display: none;
       }
 
       .toc-link {
         color: #0366d6;
         text-decoration: none;
-        display: block;
+      }
+
+      .toc-link:hover {
+        color: #023b88;
       }
 
       .is-active-link {
@@ -93,21 +96,21 @@
 
       #toc-toggle {
         position: fixed;
-        top: 10px;
+        bottom: 10px;
         left: 10px;
-        background-color: #0366d6;
-        color: white;
+        width: 32px;
+        height: 32px;
+        background-color: #ccc;
         border: none;
-        padding: 6px 12px;
-        cursor: pointer;
+        border-radius: 50%;
         z-index: 200;
-        border-radius: 4px;
+        cursor: pointer;
       }
     </style>
   </head>
 
   <body>
-    <button id="toc-toggle">目录</button>
+    <button id="toc-toggle" title="切换目录"></button>
 
     <header class="site-header">
       <div class="wrapper">
@@ -119,12 +122,10 @@
     </header>
 
     <main class="page-content">
-      <!-- 左侧可调宽目录区域 -->
       <div id="toc-container" class="js-toc-container">
         <nav class="js-toc"></nav>
       </div>
 
-      <!-- 正文区域 -->
       <div class="wrapper js-toc-content">
         {{ content }}
       </div>
