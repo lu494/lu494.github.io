@@ -57,3 +57,38 @@ a:hover {
 .page-content {
   padding: 2rem 1rem;
 }
+/* 🧱 代码块样式 */
+.highlight {
+  background: #f7f7f7;
+  border: 1px solid #e1e1e8;
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 6px;
+  font-size: 0.95em;
+}
+
+.highlight pre, pre.highlight {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+/* 🧱 行内代码 */
+code {
+  background-color: #f2f2f2;
+  padding: 0.2em 0.4em;
+  border-radius: 4px;
+  font-size: 90%;
+  font-family: Consolas, Monaco, 'Courier New', monospace;
+}
+
+/* 🧱 引用块样式（>） */
+blockquote {
+  border-left: 4px solid #ccc;
+  background-color: #f9f9f9;
+  padding: 0.8em 1.2em;
+  margin: 1.5em 0;
+  color: #555;
+  font-style: italic;
+}
