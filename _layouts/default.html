@@ -1,12 +1,69 @@
+<!-- ✅ 完整可直接使用的 Jekyll 博客模板，支持左侧目录自动生成 + 暗色代码高亮 -->
 <!DOCTYPE html>
 <html lang="zh">
   <head>
     <meta charset="UTF-8">
     <title>{{ page.title }} | {{ site.title }}</title>
+
+    <!-- ✅ 样式：博客整体布局 + 代码高亮 + 目录样式 -->
     <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
     <link rel="stylesheet" href="{{ "/assets/syntax.css" | relative_url }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.css">
+
+    <!-- ✅ 脚本：目录生成器 -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4/dist/tocbot.min.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        tocbot.init({
+          tocSelector: '.js-toc',
+          contentSelector: '.js-toc-content',
+          headingSelector: 'h1, h2, h3, h4, h5, h6',
+          positionFixedSelector: '.js-toc',
+          positionFixedClass: 'is-fixed',
+          scrollSmooth: true,
+          headingsOffset: 80,
+          collapseDepth: 6
+        });
+      });
+    </script>
+
+    <style>
+      /* ✅ 内联目录样式优化（你也可以放到 main.css） */
+      .js-toc {
+        width: 220px;
+        font-size: 14px;
+        line-height: 1.6;
+        position: sticky;
+        top: 100px;
+        max-height: 80vh;
+        overflow-y: auto;
+        padding-right: 1rem;
+      }
+
+      .js-toc li {
+        list-style: none;
+        margin: 4px 0;
+      }
+
+      .toc-link {
+        text-decoration: none;
+        color: #444;
+      }
+      .is-active-link {
+        font-weight: bold;
+        color: #007acc;
+      }
+
+      @media (max-width: 768px) {
+        .js-toc {
+          display: none;
+        }
+      }
+    </style>
   </head>
+
   <body>
+    <!-- ✅ 顶部导航栏 -->
     <header class="site-header">
       <div class="wrapper">
         <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title }}</a>
@@ -16,12 +73,20 @@
       </div>
     </header>
 
+    <!-- ✅ 主体区域：左目录 + 右正文 -->
     <main class="page-content">
-      <div class="wrapper">
-        {{ content }}
+      <div class="wrapper" style="display: flex;">
+        <!-- 左侧目录容器 -->
+        <nav class="js-toc"></nav>
+
+        <!-- 右侧正文内容 -->
+        <div class="js-toc-content" style="flex: 1;">
+          {{ content }}
+        </div>
       </div>
     </main>
 
+    <!-- ✅ 页脚 -->
     <footer class="site-footer">
       <div class="wrapper">
         <p>本博客仅供技术研究与学习交流，严禁用于非法用途，违者后果自负！</p>
