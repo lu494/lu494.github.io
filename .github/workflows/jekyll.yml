@@ -10,8 +10,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout source with full history
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
