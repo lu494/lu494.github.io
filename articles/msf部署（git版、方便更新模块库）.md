@@ -112,7 +112,7 @@ apt install -y git curl wget gnupg2 build-essential libreadline-dev libssl-dev l
 
 > * rvm是ruby语言 version manager
 > 
-> * <mark>***msf是ruby语言写的***</mark>
+> * <mark>msf是ruby语言写的</mark>
 > 
 > * 通过rvm在Kali上安装不同版本的ruby运行环境，给不同ruby应用使用
 
@@ -157,7 +157,7 @@ gpg --list-keys
 
 ## rvm安装目录
 
-> * 根据提示，可见rvm安装目录为<mark>***/usr/local/rvm/***</mark>
+> * 根据提示，可见rvm安装目录为<mark>/usr/local/rvm/</mark>
 
 ## 自己加到rvm组
 
@@ -303,7 +303,7 @@ rvm use ruby-3.2.5@metasploit-framework --create
 
 ### gemset目录
 
-> * <mark>/usr/local/rvm/gems/ruby-3.2.5@metasploit-framework*</mark>
+> * <mark>/usr/local/rvm/gems/ruby-3.2.5@metasploit-framework</mark>
 
 ### 查看gemset
 
