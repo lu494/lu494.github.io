@@ -3,6 +3,7 @@ layout: default
 title: 渗透攻防十万小时专家计划
 ---
 # 渗透攻防
+###### [msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
 ###### [GVM基本使用](/articles/GVM基本使用.md)
 ###### [从指定url下载文件](/articles/从指定url下载文件.md)
 ###### [通过ncat工具getshell](/articles/通过ncat工具getshell.md)
