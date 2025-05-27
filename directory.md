@@ -14,6 +14,7 @@ title: 渗透攻防十万小时专家计划
 ###### [使用hydra暴破](/articles/使用hydra暴破.md)
 ###### [使用hping3进行dos攻击](/articles/使用hping3进行dos攻击.md)
 ###### [使用msf利用ms15-034](/articles/使用msf利用ms15-034.md)
+###### [使用msf利用ms17-010（永恒之蓝）](/articles/使用msf利用ms17-010（永恒之蓝）.md)
 
 
 # Linux运维
