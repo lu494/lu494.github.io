@@ -5,17 +5,19 @@ title: 从指定url下载文件
 
 # Windows远程桌面协议
 
+## 图形化
+
 > * 像VMware tools一样，支持图形化文件的上传和下载
 
 # Linux 从web上下载
 
-1.通过<mark>wget</mark>
+## 通过wget
 
 ```bash
 wget http://112.125.18.22/welcome.png
 ```
 
-2.通过<mark>curl</mark>
+## 通过curl
 
 ```bash
 curl http://112.125.18.22/welcome.png -o /root/1.png
@@ -23,19 +25,19 @@ curl http://112.125.18.22/welcome.png -o /root/1.png
 
 # windows从web上下载
 
-1.<mark>curl</mark>
+## curl
 
 ```batch
 curl http://112.125.18.22/welcome.png -o welcome.png
 ```
 
-2.<mark>certutil</mark>
+## certutil
 
 ```batch
 certutil.exe -urlcache -split -f http://112.125.18.22/welcome.png welcome.png
 ```
 
-3.通过<mark>power shell</mark>
+## power shell
 
 ```powershell
 Invoke-WebRequest -Uri "http://112.125.18.22/welcome.png" -OutFile "welcome.png"
@@ -46,7 +48,7 @@ Invoke-WebRequest -Uri "http://112.125.18.22/welcome.png" -OutFile "welcome.png"
 # uri uniform resource id 统一资源id ，就是url
 ```
 
-4<mark>.bitsadmin</mark>
+## bitsadmin
 
 ```batch
 bitsadmin /transfer "job1" "http://112.125.18.22/welcome.png" "c:\users\xlu\welcome.png"
