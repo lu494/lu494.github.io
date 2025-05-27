@@ -7,7 +7,7 @@ title: kali基本使用
 
 # 安装Kali虚拟机
 
-> * <mark>Kali官网</mark>  [kali官网](https://www.kali.org/) 
+> * [kali官网](https://www.kali.org/) 
 
 # 更新软件源
 
