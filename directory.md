@@ -13,6 +13,7 @@ title: 渗透攻防十万小时专家计划
 ###### [nmap基本使用](/articles/nmap基本使用.md)
 ###### [使用hydra暴破](/articles/使用hydra暴破.md)
 ###### [使用hping3进行dos攻击](/articles/使用hping3进行dos攻击.md)
+###### [使用msf利用ms15-034](/articles/使用msf利用ms15-034.md)
 
 
 # Linux运维
