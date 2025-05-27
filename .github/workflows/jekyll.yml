@@ -1,4 +1,4 @@
-name: Build and Deploy Jekyll site
+name: Build Jekyll Site
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  github-pages:
+  jekyll-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
