@@ -10,4 +10,5 @@ title: 渗透攻防十万小时专家计划
 ###### [Linux更改主机名](/articles/Linux更改主机名.md)
 # IT基础
 ###### [手机快捷录音](/articles/手机快捷录音.md)
+###### [手机连接电脑](/articles/手机连接电脑.md)
 # default
