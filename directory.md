@@ -8,6 +8,7 @@ title: 渗透攻防十万小时专家计划
 ###### [微软安全平台](/articles/微软安全平台.md)
 ###### [kali基本使用](/articles/kali基本使用.md)
 ###### [nmap基本使用](/articles/nmap基本使用.md)
+###### [部署metasploitable2](/articles/部署metasploitable2.md)
 # Linux运维
 ###### [Linux基本命令](/articles/Linux基本命令.md)
 ###### [Linux更改主机名](/articles/Linux更改主机名.md)
