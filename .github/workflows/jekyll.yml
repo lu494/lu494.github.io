@@ -1,4 +1,4 @@
-name: Build Jekyll Site
+name: Build and Deploy Jekyll Site
 
 on:
   push:
@@ -8,6 +8,7 @@ on:
 jobs:
   jekyll-build:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout source
         uses: actions/checkout@v4
@@ -27,3 +28,11 @@ jobs:
           JEKYLL_ENV: production
           BUNDLE_WITH: 'jekyll_plugins'
         run: bundle exec jekyll build --trace
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.GH_DEPLOY_TOKEN }}
+          external_repository: lu494/lu494.github.io
+          publish_branch: gh-pages
+          publish_dir: ./_site
