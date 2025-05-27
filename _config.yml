@@ -9,3 +9,4 @@ highlighter: rouge
 # 让 GitHub 启用 Jekyll 渲染
 plugins:
   - jekyll-feed
+  - Jekyll-last-modified-at
