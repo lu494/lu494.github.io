@@ -6,4 +6,3 @@ markdown: kramdown
 highlighter: rouge
 plugins:
   - jekyll-feed
-  - jekyll-last-modified-at
