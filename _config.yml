@@ -1,7 +1,7 @@
 title: 渗透攻防十万小时专家计划
 author: 御剑不孤独
 description: lu494
-theme: jekyll-theme-cayman
+theme: minima
 markdown: kramdown
 highlighter: rouge
 plugins:
