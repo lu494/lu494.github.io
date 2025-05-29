@@ -92,3 +92,12 @@ blockquote {
   color: #555;
   font-style: italic;
 }
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs {
+  color: #9cdcfe;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Fira Code", "Consolas", "Courier New", monospace;
+}
