@@ -85,3 +85,14 @@ code {
 .highlight .vg,
 .highlight .vi     { color: #f8f8f2 }
 .highlight .il     { color: #ae81ff }
+/* ✅ 覆盖默认注释样式，使用你想要的蓝色+非斜体 */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs {
+  color: #9cdcfe !important;
+  font-style: normal !important;
+  font-weight: 500;
+  font-family: "Fira Code", "Consolas", "Courier New", monospace !important;
+}
+
