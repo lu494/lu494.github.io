@@ -21,6 +21,7 @@ title: 渗透攻防十万小时专家计划
 ###### [01Linux基本命令](/articles/Linux基本命令.md)
 ###### [02Linux更改主机名](/articles/Linux更改主机名.md)
 ###### [03Linux网络管理](/articles/Linux网络管理.md)
+###### [04管理dnf软件源](/articles/管理dnf软件源.md)
 # IT基础
 ###### [01手机快捷录音](/articles/手机快捷录音.md)
 ###### [02手机连接电脑](/articles/手机连接电脑.md)
