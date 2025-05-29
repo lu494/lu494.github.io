@@ -40,6 +40,7 @@ dnf repolist
 dnf check-update
 ```
 
+
 # 更新
 
 ```bash
