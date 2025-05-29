@@ -57,15 +57,6 @@ a:hover {
 .page-content {
   padding: 2rem 1rem;
 }
-/* 🧱 代码块样式 */
-.highlight {
-  background: #f7f7f7;
-  border: 1px solid #e1e1e8;
-  padding: 1em;
-  overflow-x: auto;
-  border-radius: 6px;
-  font-size: 0.95em;
-}
 
 .highlight pre, pre.highlight {
   background: none;
