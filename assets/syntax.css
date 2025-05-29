@@ -1,0 +1,97 @@
+/* 🎨 更优雅的暗色 Rouge 高亮主题 */
+.highlight {
+  background: none;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+.highlight pre {
+  background-color: #2d2d2d;  /* 比原来的 #272822 稍浅 */
+  color: #f8f8f2;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+pre, code {
+  font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+/* 单行 code */
+code {
+  background-color: #2d2d2d;
+  color: #f8f8f2;
+  padding: 0.2em 0.4em;
+  border-radius: 5px;
+  font-size: 90%;
+}
+
+/* Rouge token colors - 更丰富 */
+.highlight .c     { color: #75715e; font-style: italic }  /* Comment */
+.highlight .err   { color: #f92672; background-color: #1e0010 }
+.highlight .k     { color: #66d9ef; font-weight: bold }   /* Keyword */
+.highlight .o     { color: #f92672 }                       /* Operator */
+.highlight .cm    { color: #75715e }
+.highlight .cp    { color: #a6e22e }
+.highlight .c1    { color: #75715e }
+.highlight .cs    { color: #75715e }
+.highlight .gd    { color: #f92672 }
+.highlight .ge    { font-style: italic }
+.highlight .gh    { color: #66d9ef }
+.highlight .gi    { color: #a6e22e }
+.highlight .go    { color: #44475a }
+.highlight .gp    { color: #f92672 }
+.highlight .gs    { font-weight: bold }
+.highlight .gu    { color: #75715e }
+.highlight .kc,
+.highlight .kd,
+.highlight .kp,
+.highlight .kr     { color: #ff6188; font-weight: bold }
+.highlight .kt     { color: #fd971f }
+.highlight .m      { color: #ae81ff } /* Number */
+.highlight .s      { color: #e6db74 } /* String */
+.highlight .na     { color: #a6e22e }
+.highlight .nb     { color: #66d9ef }
+.highlight .nc     { color: #a6e22e }
+.highlight .no     { color: #f92672 }
+.highlight .nd     { color: #a6e22e }
+.highlight .ne     { color: #f92672 }
+.highlight .nf     { color: #a6e22e }
+.highlight .nn     { color: #f8f8f2 }
+.highlight .nt     { color: #f92672 }
+.highlight .nv     { color: #f8f8f2 }
+.highlight .w      { color: #f8f8f2 }
+.highlight .mf,
+.highlight .mh,
+.highlight .mi,
+.highlight .mo     { color: #ae81ff }
+.highlight .sb,
+.highlight .sc,
+.highlight .sd,
+.highlight .s2,
+.highlight .se,
+.highlight .sh,
+.highlight .si,
+.highlight .sx,
+.highlight .sr,
+.highlight .s1,
+.highlight .ss     { color: #e6db74 }
+.highlight .bp     { color: #f8f8f2 }
+.highlight .vc,
+.highlight .vg,
+.highlight .vi     { color: #f8f8f2 }
+.highlight .il     { color: #ae81ff }
+/* ✅ 覆盖默认注释样式，使用你想要的蓝色+非斜体 */
+.highlight .c,
+.highlight .c1,
+.highlight .cm,
+.highlight .cs {
+  color: #9cdcfe !important;
+  font-style: normal !important;
+  font-weight: 500;
+  font-family: "Fira Code", "Consolas", "Courier New", monospace !important;
+}
