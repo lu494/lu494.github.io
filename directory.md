@@ -28,6 +28,7 @@ title: 渗透攻防十万小时专家计划
 ###### [08Linux用户组管理](/articles/Linux运维/08Linux用户组管理.md)
 ###### [09文件目录归属权限](/articles/Linux运维/09文件目录归属权限.md)
 ###### [10目录查找、内容检索](/articles/Linux运维/10目录查找、内容检索.md)
+###### [11进程管理](/articles/Linux运维/11进程管理.md)
 # IT基础
 ###### [01手机快捷录音](/articles/手机快捷录音.md)
 ###### [02手机连接电脑](/articles/手机连接电脑.md)
