@@ -9,7 +9,7 @@ title: Linux基本命令
 clear
 ```
 
-# 通过scp命令传文件
+# scp命令传文件
 
 ```batch
 rem 通过scp命令，通过ssh管道传输文件
