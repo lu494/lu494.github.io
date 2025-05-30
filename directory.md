@@ -25,6 +25,7 @@ title: 渗透攻防十万小时专家计划
 ###### [05Linux电源操作](/articles/Linux运维/05Linux电源操作.md)
 ###### [06Linux文件、目录管理](/articles/Linux运维/06Linux文件、目录管理.md)
 ###### [07vim文本编辑器](/articles/Linux运维/07vim文本编辑器.md)
+###### [08Linux用户组管理](/articles/Linux运维/08Linux用户组管理.md)
 # IT基础
 ###### [01手机快捷录音](/articles/手机快捷录音.md)
 ###### [02手机连接电脑](/articles/手机连接电脑.md)
