@@ -27,6 +27,7 @@ title: 渗透攻防十万小时专家计划
 ###### [07vim文本编辑器](/articles/Linux运维/07vim文本编辑器.md)
 ###### [08Linux用户组管理](/articles/Linux运维/08Linux用户组管理.md)
 ###### [09文件目录归属权限](/articles/Linux运维/09文件目录归属权限.md)
+###### [10目录查找、内容检索](/articles/Linux运维/10目录查找、内容检索.md)
 # IT基础
 ###### [01手机快捷录音](/articles/手机快捷录音.md)
 ###### [02手机连接电脑](/articles/手机连接电脑.md)
