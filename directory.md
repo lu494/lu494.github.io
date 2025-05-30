@@ -18,7 +18,7 @@ title: 渗透攻防十万小时专家计划
 
 
 # Linux运维
-###### [01Linux基本命令](/articles/Linux基本命令.md)
+###### [01scp传文件](/articles/scp传文件.md)
 ###### [02Linux更改主机名](/articles/Linux更改主机名.md)
 ###### [03Linux网络管理](/articles/Linux网络管理.md)
 ###### [04管理dnf软件源](/articles/Linux运维/04管理dnf软件源.md)
