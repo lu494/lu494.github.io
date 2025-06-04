@@ -4,6 +4,7 @@ title: 渗透攻防十万小时专家计划
 ---
 # 01IT基础
 ###### [01手机快捷录音](/articles/01IT基础/01手机快捷录音.md)
+###### [02手机连接电脑](/articles/01IT基础/02手机连接电脑.md)
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
 ###### [02GVM基本使用](/articles/GVM基本使用.md)
@@ -32,6 +33,6 @@ title: 渗透攻防十万小时专家计划
 ###### [10目录查找、内容检索](/articles/Linux运维/10目录查找、内容检索.md)
 ###### [11进程管理](/articles/Linux运维/11进程管理.md)
 # IT基础
-###### [02手机连接电脑](/articles/手机连接电脑.md)
+
 ###### [03clash使用](/articles/clash使用.md)
 # default
