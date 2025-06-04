@@ -1,6 +1,6 @@
 ---
 layout: default
-title: yum(dnf)
+title: yumdnf
 ---
 
 
