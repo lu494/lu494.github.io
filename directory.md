@@ -30,6 +30,7 @@ title: 渗透攻防十万小时专家计划
 ###### [10目录查找、内容检索](/articles/04Linux/Linux基础/10目录查找、内容检索.md)
 ###### [11进程管理](/articles/04Linux/Linux基础/11进程管理.md)
 ###### [12firewalld、selinux](/articles/04Linux/Linux基础/12firewalld、selinux.md)
+###### [13shell配置](/articles/04Linux/Linux基础/13shell配置.md)
 
 ## RHCA
 ---
