@@ -12,6 +12,7 @@ title: 渗透攻防十万小时专家计划
 ## HCIE-SECURITY
 # 04linux
 ## Linux基础
+###### [01scp传文件](/articles/04Linux/Linux基础/01scp传文件.md)
 ## RHCA
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
@@ -29,7 +30,7 @@ title: 渗透攻防十万小时专家计划
 
 
 # Linux运维
-###### [01scp传文件](/articles/scp传文件.md)
+
 ###### [02Linux更改主机名](/articles/Linux更改主机名.md)
 ###### [03Linux网络管理](/articles/Linux网络管理.md)
 ###### [04管理dnf软件源](/articles/Linux运维/04管理dnf软件源.md)
