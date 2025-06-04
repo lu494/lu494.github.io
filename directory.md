@@ -6,6 +6,8 @@ title: 渗透攻防十万小时专家计划
 ###### [01手机快捷录音](/articles/01IT基础/01手机快捷录音.md)
 ###### [02手机连接电脑](/articles/01IT基础/02手机连接电脑.md)
 ###### [03clash使用](/articles/01IT基础/03clash使用.md)
+# 02数通
+## CCIE
 
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
