@@ -21,6 +21,7 @@ title: 渗透攻防十万小时专家计划
 ###### [01scp传文件](/articles/04Linux/Linux基础/01scp传文件.md)
 ###### [02Linux更改主机名](/articles/04Linux/Linux基础/02Linux更改主机名.md)
 ###### [03Linux网络管理](/articles/04Linux/Linux基础/03Linux网络管理.md)
+###### [04yum(dnf)](/articles/04Linux/Linux基础/04yum(dnf).md)
 
 ## RHCA
 ---
