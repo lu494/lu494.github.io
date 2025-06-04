@@ -6,14 +6,24 @@ title: 渗透攻防十万小时专家计划
 ###### [01手机快捷录音](/articles/01IT基础/01手机快捷录音.md)
 ###### [02手机连接电脑](/articles/01IT基础/02手机连接电脑.md)
 ###### [03clash使用](/articles/01IT基础/03clash使用.md)
+
+
 # 02数通
 ## CCIE
+
+
 # 03硬件安全
 ## HCIE-SECURITY
+
+
 # 04linux
 ## Linux基础
 ###### [01scp传文件](/articles/04Linux/Linux基础/01scp传文件.md)
+###### [02Linux更改主机名](/articles/04Linux/Linux基础/02Linux更改主机名.md)
+
 ## RHCA
+
+
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
 ###### [02GVM基本使用](/articles/GVM基本使用.md)
@@ -31,7 +41,7 @@ title: 渗透攻防十万小时专家计划
 
 # Linux运维
 
-###### [02Linux更改主机名](/articles/Linux更改主机名.md)
+
 ###### [03Linux网络管理](/articles/Linux网络管理.md)
 ###### [04管理dnf软件源](/articles/Linux运维/04管理dnf软件源.md)
 ###### [05Linux电源操作](/articles/Linux运维/05Linux电源操作.md)
