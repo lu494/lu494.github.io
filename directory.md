@@ -27,6 +27,7 @@ title: 渗透攻防十万小时专家计划
 ###### [07vim文本编辑器](/articles/04Linux/Linux基础/07vim文本编辑器.md)
 ###### [08Linux用户组管理](/articles/04Linux/Linux基础/08Linux用户组管理.md)
 ###### [09文件目录归属权限](/articles/04Linux/Linux基础/09文件目录归属权限.md)
+###### [10目录查找、内容检索](/articles/04Linux/Linux基础/10目录查找、内容检索.md)
 
 ## RHCA
 ---
@@ -56,5 +57,5 @@ title: 渗透攻防十万小时专家计划
 
 
 
-###### [10目录查找、内容检索](/articles/Linux运维/10目录查找、内容检索.md)
+
 ###### [11进程管理](/articles/Linux运维/11进程管理.md)
