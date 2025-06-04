@@ -29,6 +29,7 @@ title: 渗透攻防十万小时专家计划
 ###### [09文件目录归属权限](/articles/04Linux/Linux基础/09文件目录归属权限.md)
 ###### [10目录查找、内容检索](/articles/04Linux/Linux基础/10目录查找、内容检索.md)
 ###### [11进程管理](/articles/04Linux/Linux基础/11进程管理.md)
+###### [12firewalld、selinux](/articles/04Linux/Linux基础/12firewalld、selinux.md)
 
 ## RHCA
 ---
