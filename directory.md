@@ -32,6 +32,7 @@ title: 渗透攻防十万小时专家计划
 ###### [12firewalld、selinux](/articles/04Linux/Linux基础/12firewalld、selinux.md)
 ###### [13shell配置](/articles/04Linux/Linux基础/13shell配置.md)
 ###### [14SSH安全配置](/articles/04Linux/Linux基础/14SSH安全配置.md)
+###### [15su、sudo命令](/articles/04Linux/Linux基础/15su、sudo命令.md)
 
 ## RHCA
 ---
