@@ -8,6 +8,8 @@ title: 渗透攻防十万小时专家计划
 ###### [03clash使用](/articles/01IT基础/03clash使用.md)
 # 02数通
 ## CCIE
+# 03硬件安全
+## HCIE-SECURITY
 
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
