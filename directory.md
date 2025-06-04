@@ -28,6 +28,7 @@ title: 渗透攻防十万小时专家计划
 ###### [08Linux用户组管理](/articles/04Linux/Linux基础/08Linux用户组管理.md)
 ###### [09文件目录归属权限](/articles/04Linux/Linux基础/09文件目录归属权限.md)
 ###### [10目录查找、内容检索](/articles/04Linux/Linux基础/10目录查找、内容检索.md)
+###### [11进程管理](/articles/04Linux/Linux基础/11进程管理.md)
 
 ## RHCA
 ---
@@ -47,7 +48,6 @@ title: 渗透攻防十万小时专家计划
 ###### [12使用msf利用ms17-010（永恒之蓝）](/articles/使用msf利用ms17-010（永恒之蓝）.md)
 
 
-# Linux运维
 
 
 
@@ -58,4 +58,3 @@ title: 渗透攻防十万小时专家计划
 
 
 
-###### [11进程管理](/articles/Linux运维/11进程管理.md)
