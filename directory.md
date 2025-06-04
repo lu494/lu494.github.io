@@ -55,6 +55,16 @@ title: 渗透攻防十万小时专家计划
 
 
 
+
+# 06容器技术
+## kubernetes
+---
+
+
+
+
+
+
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
 ###### [02GVM基本使用](/articles/GVM基本使用.md)
