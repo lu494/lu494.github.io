@@ -25,6 +25,7 @@ title: 渗透攻防十万小时专家计划
 ###### [05Linux电源操作](/articles/04Linux/Linux基础/05Linux电源操作.md)
 ###### [06Linux文件、目录管理](/articles/04Linux/Linux基础/06Linux文件、目录管理.md)
 ###### [07vim文本编辑器](/articles/04Linux/Linux基础/07vim文本编辑器.md)
+###### [08Linux用户组管理](/articles/04Linux/Linux基础/08Linux用户组管理.md)
 
 ## RHCA
 ---
@@ -52,7 +53,7 @@ title: 渗透攻防十万小时专家计划
 
 
 
-###### [08Linux用户组管理](/articles/Linux运维/08Linux用户组管理.md)
+
 ###### [09文件目录归属权限](/articles/Linux运维/09文件目录归属权限.md)
 ###### [10目录查找、内容检索](/articles/Linux运维/10目录查找、内容检索.md)
 ###### [11进程管理](/articles/Linux运维/11进程管理.md)
