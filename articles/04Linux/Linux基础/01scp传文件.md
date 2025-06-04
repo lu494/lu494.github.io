@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Linux基本命令
+title: scp传文件
 ---
 
 # 清屏
