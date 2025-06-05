@@ -1,6 +1,6 @@
 ---
 layout: default
-title: msf部署（git版、方便更新模块库）
+title: msf部署git版
 ---
 
 
