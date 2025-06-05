@@ -105,6 +105,7 @@ title: 渗透攻防十万小时专家计划
 ###### [02弱口令暴破](/articles/11渗透攻防/02漏扫弱口令/02弱口令暴破.md)
 ## 03nday利用
 ###### [01ms15-034](/articles/11渗透攻防/03nday利用/01ms15-034.md)
+###### [02ms17-010永恒之蓝](/articles/11渗透攻防/03nday利用/02ms17-010永恒之蓝.md)
 ---
 
 
@@ -120,7 +121,6 @@ title: 渗透攻防十万小时专家计划
 ###### [06kali基本使用](/articles/kali基本使用.md)
 ###### [07部署metasploitable2](/articles/部署metasploitable2.md)
 ###### [10使用hping3进行dos攻击](/articles/使用hping3进行dos攻击.md)
-###### [12使用msf利用ms17-010（永恒之蓝）](/articles/使用msf利用ms17-010（永恒之蓝）.md)
 
 
 
