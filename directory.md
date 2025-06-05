@@ -118,6 +118,7 @@ title: 渗透攻防十万小时专家计划
 ###### [02msf部署git版](/articles/11渗透攻防/其他/02msf部署git版.md)
 ###### [03部署metasploitable2](/articles/11渗透攻防/其他/03部署metasploitable2.md)
 ###### [04使用hping3进行dos攻击](/articles/11渗透攻防/其他/04使用hping3进行dos攻击.md)
+###### [05微软安全平台](/articles/11渗透攻防/其他/05微软安全平台.md)
 ---
 
 
@@ -127,7 +128,7 @@ title: 渗透攻防十万小时专家计划
 
 # 渗透攻防
 
-###### [05微软安全平台](/articles/微软安全平台.md)
+
 
 
 
