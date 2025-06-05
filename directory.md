@@ -116,6 +116,7 @@ title: 渗透攻防十万小时专家计划
 ## 其他
 ###### [01kali基本使用](/articles/11渗透攻防/其他/01kali基本使用.md)
 ###### [02msf部署git版](/articles/11渗透攻防/其他/02msf部署git版.md)
+###### [03部署metasploitable2](/articles/11渗透攻防/其他/03部署metasploitable2.md)
 ---
 
 
@@ -127,7 +128,7 @@ title: 渗透攻防十万小时专家计划
 
 ###### [05微软安全平台](/articles/微软安全平台.md)
 
-###### [07部署metasploitable2](/articles/部署metasploitable2.md)
+
 ###### [10使用hping3进行dos攻击](/articles/使用hping3进行dos攻击.md)
 
 
