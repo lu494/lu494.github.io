@@ -110,6 +110,7 @@ title: 渗透攻防十万小时专家计划
 ## 04社工钓鱼
 ## 05后渗透
 ###### [01从指定url下载文件](/articles/11渗透攻防/05后渗透/01从指定url下载文件.md)
+###### [02ncgetshell-本地服务](/articles/11渗透攻防/05后渗透/02ncgetshell-本地服务.md)
 ---
 
 
@@ -119,8 +120,6 @@ title: 渗透攻防十万小时专家计划
 
 # 渗透攻防
 ###### [01msf部署（git版、方便更新模块库）](/articles/msf部署（git版、方便更新模块库）.md)
-###### [03从指定url下载文件](/articles/从指定url下载文件.md)
-###### [04通过ncat工具getshell](/articles/通过ncat工具getshell.md)
 ###### [05微软安全平台](/articles/微软安全平台.md)
 ###### [06kali基本使用](/articles/kali基本使用.md)
 ###### [07部署metasploitable2](/articles/部署metasploitable2.md)
